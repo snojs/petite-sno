@@ -1,0 +1,1 @@
+function $(e){return e}function $set(e){return setTimeout(()=>{$$render()},0),e}let saved=[];function $scope(e,n){saved.push([e,document.getElementById(n)]),$$render()}function $$render(){for(let e=0;e<saved.length;e++)saved[e][1].innerHTML=saved[e][0]()}
