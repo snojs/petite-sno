@@ -53,7 +53,7 @@ The equivalent counter code is..,
 <script>
   let count = 0;
   function inc(){
-  	count = $set(count+1);
+    count = $set(count+1);
   }
   $scope(()=>{return count},"count");
 </script>
