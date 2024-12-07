@@ -7,6 +7,12 @@ This is __not__ a framework built for scale.
 
 ---
 
+### Worried about eval?
+
+[No Eval](#NoEval)
+
+---
+
 ### The Basics
 
 Declare a variable
@@ -35,3 +41,22 @@ $scope("count");
 ```
 
 __CONGRATS!!__ Now every time you update the variable it will reactively update the HTML.
+
+### NoEval
+
+If the js eval is a security concern use noeval.<br/>
+The equivalent counter code is..,
+
+```html
+<p id="count"></p>
+<button onclick="inc()">+</button>
+<script>
+  let count = $(0);
+  function inc(){
+  	count = $set(count+1);
+  }
+  $scope(()=>{return count},"count");
+</script>
+```
+
+Noeval comes in at 255B or 0.25KB!!
