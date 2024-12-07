@@ -51,7 +51,7 @@ The equivalent counter code is..,
 <p id="count"></p>
 <button onclick="inc()">+</button>
 <script>
-  let count = $(0);
+  let count = 0;
   function inc(){
   	count = $set(count+1);
   }
