@@ -1,1 +1,1 @@
-let saved=[];function $scope(varName){let elem=document.getElementById(varName),update=`()=>{return ${varName};}`,func=eval(update);elem.innerHTML=func(),saved.push([elem,func])}function $$render(){for(let e=0;e<saved.length;e++)saved[e][0].innerHTML=saved[e][1]()}function $(stuff){eval(stuff),$$render()}
+let saved=[];function $scope(varName){let elem=document.getElementById(varName),update=`()=>{return ${varName};}`;elem.innerHTML=eval(update)(),saved.push([elem,eval(update)])}function $(stuff){eval(stuff);for(let i=0;i<saved.length;i++)saved[i][0].innerHTML=saved[i][1]()}
