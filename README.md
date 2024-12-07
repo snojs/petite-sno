@@ -1,6 +1,6 @@
 # Petite Sno
 
-> A 0.3KB cousin to snocrystal
+> A 0.27KB cousin to snocrystal
 
 This version is for _petite_ DOM manipulation.<br/>
 This is __not__ a framework built for scale.
