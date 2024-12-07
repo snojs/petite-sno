@@ -1,0 +1,1 @@
+let saved=[];function $scope(varName){let elem=document.getElementById(varName),update=`()=>{return ${varName};}`,func=eval(update);elem.innerHTML=func(),saved.push([elem,func])}function $$render(){for(let e=0;e<saved.length;e++)saved[e][0].innerHTML=saved[e][1]()}function $(stuff){eval(stuff),$$render()}
