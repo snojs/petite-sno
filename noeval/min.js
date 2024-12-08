@@ -1,1 +1,1 @@
-function $set(e){return setTimeout(()=>{$$render()},0),e}let saved=[];function $scope(e,n){saved.push([e,document.getElementById(n)]),$$render()}function $$render(){for(let e=0;e<saved.length;e++)saved[e][1].innerHTML=saved[e][0]()}
+function $set(n){return setTimeout(()=>{r()},0),n}let s=[];function $scope(n,e){s.push([n,document.getElementById(e)]),r()}function r(){for(let n=0;n<s.length;n++)s[n][1].innerHTML=s[n][0]()}
