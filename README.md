@@ -9,7 +9,9 @@ This is __not__ a framework built for scale.
 
 ### Worried about eval?
 
-[No Eval](#NoEval)
+> Or if you think its too slow
+
+[No Eval](https://github.com/snojs/petite-sno/tree/main/noeval)
 
 ---
 
