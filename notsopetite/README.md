@@ -2,6 +2,8 @@
 
 > Give it to me straight doc why does this one exist??
 
+__NOT SO PETITE USES CLASSES; ALL OTHER VERSIONS USE ID__
+
 This is the ___best___ version of Petite Sno.<br/>
 It is not the smallest or the fastest but there is __NO BOILERPLATE__!
 
@@ -49,4 +51,18 @@ _Larger size, no concerns, 0 boilerplate_
     state.count++;
   }
 </script>
+```
+
+### Other key features
+
+Notsopetite has array functionality.<br/>
+__ALWAYS MATCH VARIABLE NAMES TO CLASSES__
+
+```js
+let arr ["a","b"];
+/*
+array, template
+You can reference {{item}} for the value and {{i}} for the index
+*/
+state.text = forEach(arr, "<li id='{{i}}'>{{item}}</li>")
 ```
