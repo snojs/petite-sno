@@ -1,5 +1,7 @@
-# Petite Sno
+# Petite Sno 
 
+> And its 2 silly brothers Noeval and Notsopetite
+>
 > A 0.27KB cousin to snocrystal
 
 This version is for _petite_ DOM manipulation.<br/>
@@ -12,6 +14,12 @@ This is __not__ a framework built for scale.
 > Or if you think its too slow
 
 [No Eval](https://github.com/snojs/petite-sno/tree/main/noeval)
+
+### My personal Choice
+
+Use notsopetite, there is __NO__ boilerplate,
+
+[NotSoPetite](https://github.com/snojs/petite-sno/tree/main/notsopetite)
 
 ---
 
