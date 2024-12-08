@@ -1,6 +1,8 @@
 # The final Petite Sno Varient
 
 > Give it to me straight doc why does this one exist??
+>
+> The size difference from crystal min is 88.2598%
 
 __NOT SO PETITE USES CLASSES; ALL OTHER VERSIONS USE ID__
 
