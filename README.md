@@ -11,7 +11,7 @@ This is __not__ a framework built for scale.
 
 ### Worried about eval?
 
-> Or if you think its too slow
+> Or if you think it's too slow
 
 [No Eval](https://github.com/snojs/petite-sno/tree/main/noeval)
 
